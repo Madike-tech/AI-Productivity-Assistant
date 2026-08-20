@@ -1,7 +1,10 @@
 AI Productivity Assistant
+
 Project Overview
 The AI Productivity Assistant is a practical AI-powered application designed to help users automate common administrative and productivity tasks.
+
 The project demonstrates how artificial intelligence can be used to improve efficiency, save time and support everyday workplace activities.
+
 Project Objectives
 The main objectives of this project are to:
 Automate repetitive administrative tasks.
@@ -10,6 +13,7 @@ Apply prompt engineering techniques.
 Improve productivity and task organisation.
 Provide practical AI-assisted solutions.
 Demonstrate responsible and ethical use of artificial intelligence.
+
 Key Features
 1. Email Generator
 Generates professional workplace emails based on information provided by the user.
@@ -27,6 +31,7 @@ ChatGPT
 Gemini
 Notion AI
 These tools are used for brainstorming, prompt development, testing, research assistance and improving productivity.
+
 Prompt Engineering
 The project applies structured prompts containing:
 Role
@@ -36,6 +41,7 @@ Instructions
 Output format
 Constraints
 This helps produce clearer, more consistent and useful AI responses.
+
 Responsible and Ethical AI
 The project promotes responsible use of artificial intelligence by:
 Protecting personal and confidential information.
@@ -44,6 +50,7 @@ Reviewing AI-generated information before using it.
 Recognising that AI can produce incorrect information.
 Using AI as an assistance tool rather than blindly relying on it.
 Respecting deadlines and completing work responsibly.
+
 Technologies
 HTML
 CSS
@@ -51,8 +58,10 @@ JavaScript
 AI tools
 GitHub
 GitHub Pages
+
 Project Status
 🚧 Project currently under development.
+
 Author
 Lucy Thato Madike
 Administrative and Public Relations Professional | AI Productivity Project 
