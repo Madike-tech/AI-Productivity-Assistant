@@ -1,1 +1,154 @@
-Created AI assistant interface
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Productivity Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🤖 AI Productivity Assistant</h1>
+    <p>Smart AI-powered tools for everyday productivity and administration</p>
+</header>
+
+<div class="container">
+
+    <div class="intro">
+        <h2>Welcome to Your AI Assistant</h2>
+        <p>
+            Use the tools below to generate emails, summarise meetings,
+            plan tasks, conduct research and interact with an AI assistant.
+        </p>
+    </div>
+
+    <div class="tools">
+
+        <!-- Email Generator -->
+        <div class="card">
+            <h3>✉️ Email Generator</h3>
+
+            <p>
+                Generate a professional workplace email based on your requirements.
+            </p>
+
+            <textarea
+                id="emailInput"
+                placeholder="Example: Request a meeting with my manager..."
+            ></textarea>
+
+            <button onclick="generateEmail()">Generate Email</button>
+
+            <div id="emailResult" class="result">
+                Your generated email will appear here.
+            </div>
+        </div>
+
+
+        <!-- Meeting Summarizer -->
+        <div class="card">
+            <h3>📝 Meeting Summarizer</h3>
+
+            <p>
+                Turn meeting notes into a simple summary and action items.
+            </p>
+
+            <textarea
+                id="meetingInput"
+                placeholder="Paste your meeting notes here..."
+            ></textarea>
+
+            <button onclick="summarizeMeeting()">Summarize Meeting</button>
+
+            <div id="meetingResult" class="result">
+                Your meeting summary will appear here.
+            </div>
+        </div>
+
+
+        <!-- Task Planner -->
+        <div class="card">
+            <h3>✅ Task Planner</h3>
+
+            <p>
+                Break a large task into smaller, manageable activities.
+            </p>
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Example: Prepare monthly report"
+            >
+
+            <button onclick="planTask()">Plan Task</button>
+
+            <div id="taskResult" class="result">
+                Your task plan will appear here.
+            </div>
+        </div>
+
+
+        <!-- Research Assistant -->
+        <div class="card">
+            <h3>🔎 Research Assistant</h3>
+
+            <p>
+                Generate research questions and useful keywords.
+            </p>
+
+            <input
+                type="text"
+                id="researchInput"
+                placeholder="Enter a research topic..."
+            >
+
+            <button onclick="assistResearch()">Assist Research</button>
+
+            <div id="researchResult" class="result">
+                Your research assistance will appear here.
+            </div>
+        </div>
+
+
+        <!-- AI Chatbot -->
+        <div class="card">
+            <h3>💬 AI Chatbot</h3>
+
+            <p>
+                Ask the assistant a general productivity or administrative question.
+            </p>
+
+            <textarea
+                id="chatInput"
+                placeholder="Ask your question..."
+            ></textarea>
+
+            <button onclick="chatbot()">Ask Assistant</button>
+
+            <div id="chatResult" class="result">
+                The AI assistant's response will appear here.
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>
+        AI Productivity Assistant | Developed by Lucy Thato Madike
+    </p>
+
+    <p>
+        Responsible AI • Productivity • Administration
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
