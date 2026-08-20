@@ -158,3 +158,15 @@ footer {
     margin-bottom: 10px;
     line-height: 1.5;
 }
+.ethical-box ul,
+.ethical-box li {
+    color: #222;
+}
+
+.ethical-box p {
+    color: #222;
+}
+
+.ethical-box h3 {
+    color: #1f4e79;
+}
